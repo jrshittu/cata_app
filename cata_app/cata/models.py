@@ -18,6 +18,7 @@ class Article(models.Model):
     title = models.CharField(max_length=200)
     article_id = models.BigAutoField(primary_key=True)
     keywords = models.TextField(default=0)
+    
 class Author(models.Model):
     author_name = models.CharField(max_length=200)
     author_id = models.BigAutoField(primary_key=True)
